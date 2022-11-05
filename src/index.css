@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --black-color: #000000;
+  --pink-color: #ea047e;
+  --orange-color: #ff6d28;
+  --white-color: #ffffff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Custom Handwriting';
+  src: url(./assets/font/Dpdorkdiary-P267.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.theme {
+  height: 1128.2px;
+  left: -380px;
+  top: -114px;
+  background: url('/src/assets/img/homepage.png');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
