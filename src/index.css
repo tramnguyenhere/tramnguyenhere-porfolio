@@ -3,6 +3,8 @@
   --pink-color: #ea047e;
   --orange-color: #ff6d28;
   --white-color: #ffffff;
+
+  --theme-height: 1128.2px;
 }
 
 @font-face {
@@ -17,7 +19,7 @@
 }
 
 .theme {
-  height: 1128.2px;
+  height: var(--theme-height);
   left: -380px;
   top: -114px;
   background: url('/src/assets/img/homepage.png');
