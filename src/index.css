@@ -3,7 +3,11 @@
   --pink-color: #ea047e;
   --orange-color: #ff6d28;
   --white-color: #ffffff;
-
+  --linear-color: linear-gradient(
+    45deg,
+    var(--pink-color),
+    var(--orange-color)
+  );
   --theme-height: 1128.2px;
 }
 

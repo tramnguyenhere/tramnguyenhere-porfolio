@@ -15,35 +15,69 @@
   line-height: 39px;
 }
 
-.aboutme__story p:nth-child(1),
-.aboutme__story p:nth-child(3) {
-  font-size: 22px;
-  width: 50%;
+.aboutme__story {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.aboutme__story--history {
+  font-size: 20px;
   text-align: right;
+  width: 50%;
+  text-align: justify;
+}
+
+.aboutme__story--history span {
+  font-weight: 700;
+  color: var(--white-color);
+  padding: 2px;
+  background: var(--linear-color);
+}
+
+.aboutme__story--passion {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+
+.aboutme__story--passion img {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.aboutme__story--passion h4 {
+  position: absolute;
+  font-weight: 800;
+  font-size: 5rem;
+  margin-left: 10px;
+  color: rgba(0, 0, 0, 0.6);
+  padding-top: 4%;
+  padding-left: 4%;
+  text-transform: uppercase;
+}
+
+.aboutme__story--passion p {
+  font-size: 22px;
+}
+
+.aboutme__technical-skill h1 {
+  color: var(--pink-color);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.aboutme__technical-skill hr {
+  border: 5px solid var(--pink-color);
+  opacity: 1;
+  width: 10%;
+  margin-top: 50px;
 }
 
 .aboutme__technical-skill img {
   height: 100px;
-}
-
-.aboutme__mypassion {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.mypassion__square {
-  width: 200px;
-  height: 300px;
-  border: 1px solid white;
-  border-radius: 10px;
-  background: linear-gradient(45deg, var(--pink-color), var(--orange-color));
-}
-
-.mypassion__text {
-  position: absolute;
-  font-weight: 800;
-  font-size: 4rem;
-  margin-left: 10px;
-  color: rgba(0, 0, 0, 0.6);
 }

@@ -28,7 +28,7 @@ const NavigationBar = () => {
           </li>
 
           <li className='navbar__link' active href='/'>
-            Project
+            Works
           </li>
 
           <li className='navbar__link' active href='/'>

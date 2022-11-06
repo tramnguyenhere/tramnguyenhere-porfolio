@@ -44,7 +44,7 @@
   font-size: 20px;
   font-weight: 500;
   color: var(--white-color);
-  background: linear-gradient(45deg, var(--pink-color), var(--orange-color));
+  background: var(--linear-color);
   transition: 0.25s ease-in;
 
   background-size: 200% 100%;
@@ -61,11 +61,7 @@
 }
 
 .homepage__button:hover {
-  background-image: linear-gradient(
-    45deg,
-    var(--orange-color),
-    var(--pink-color)
-  );
+  background-image: var(--linear-color);
   box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
   background-position: 0 0;
 }
