@@ -1,0 +1,33 @@
+@import '../../../index.css';
+
+.works {
+  margin: 100px 50px;
+  width: 100%;
+}
+
+.works hr {
+  border: 5px solid var(--pink-color);
+  opacity: 1;
+  width: 10%;
+}
+
+.works h2 {
+  color: var(--pink-color);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.works h1 {
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.works__card--thumb {
+  width: 394px;
+  height: 276px;
+  background: var(--linear-color);
+  border-radius: 10px;
+}

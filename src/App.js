@@ -1,12 +1,16 @@
 import React from 'react';
 import NavigationBar from './components/nav/Nav';
-import Layout from './components/body/layout/Layout';
+import Homepage from './components/body/homepage/Homepage';
+import AboutMe from './components/body/aboutme/AboutMe';
+import Works from './components/body/works/Works';
 
 const App = () => {
   return (
-    <div className='theme'>
+    <div>
       <NavigationBar />
-      <Layout />
+      <Homepage />
+      <AboutMe />
+      <Works />
     </div>
   );
 };

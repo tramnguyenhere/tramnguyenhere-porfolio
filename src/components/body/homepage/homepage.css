@@ -1,12 +1,12 @@
 @import '../../../index.css';
 
 .homepage {
-  position: absolute;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  top: 190px;
   padding: 0 100px;
+  height: 100%;
+  margin-top: 8%;
 }
 
 .homepage h1 {
@@ -74,7 +74,7 @@
   border-radius: 50%;
   width: 27px;
   height: 27px;
-  top: -40px;
+  top: 30%;
   left: 280px;
 }
 
@@ -86,7 +86,7 @@
   border-radius: 50%;
   width: 27px;
   height: 27px;
-  top: 120px;
+  top: 65%;
   left: 200px;
 }
 
@@ -97,8 +97,8 @@
   border-radius: 50%;
   width: 27px;
   height: 27px;
-  right: 170px;
-  top: 100px;
+  right: 15%;
+  top: 60%;
 }
 
 .homepage p::after {
@@ -109,5 +109,5 @@
   border-radius: 50%;
   width: 47px;
   height: 47px;
-  top: -60px;
+  top: 30%;
 }

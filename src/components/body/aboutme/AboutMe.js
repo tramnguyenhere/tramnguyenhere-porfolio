@@ -12,7 +12,7 @@ const AboutMe = () => {
       <div className='aboutme__story'>
         <div className='aboutme__story--history'>
           <p>
-            The chemistry between me and computer sciences established 2 years
+            The chemistry between me and computer sciences established 1 years
             ago when I was assigned to build a website in the computer network
             course. I was fascinated at how I could one day use logical codes to
             express my ideas in a real webpage. It was the moment I realized
@@ -27,8 +27,9 @@ const AboutMe = () => {
             to leverage my coding skills and programming logic is by working
             with other coders to build practical projects. Now,{' '}
             <span>
-              I am finding a chance to add more values as a junior frontend
-              developer, and learn more from experienced folks in the industry.
+              I am finding opportunities to add more values as an entry-level
+              frontend developer, and learn more from experienced folks in the
+              industry.
             </span>
           </p>
         </div>
@@ -42,7 +43,6 @@ const AboutMe = () => {
       </div>
 
       <div className='aboutme__technical-skill'>
-        <hr />
         <h1>Is it me who are you looking for?</h1>
         <div>
           <h3>Programming languages</h3>

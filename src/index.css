@@ -22,15 +22,14 @@
   box-sizing: border-box;
 }
 
+.hidden {
+  display: none;
+}
+
 .theme {
   height: var(--theme-height);
   left: -380px;
-  top: -114px;
   background: url('/src/assets/img/homepage.png');
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-.hidden {
-  display: none;
 }
