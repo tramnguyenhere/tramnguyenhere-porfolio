@@ -1,0 +1,8 @@
+@import url('../../index.css');
+
+footer {
+  background: var(--orange-color);
+  text-align: center;
+  color: var(--white-color);
+  padding: 10px;
+}

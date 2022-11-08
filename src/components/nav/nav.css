@@ -82,7 +82,26 @@
   transition: 0.25s ease-out;
 }
 
+@-webkit-keyframes bounce {
+  to {
+    -webkit-transform: scale(1.2);
+  }
+}
+@-moz-keyframes bounce {
+  to {
+    -moz-transform: scale(1.2);
+  }
+}
+@keyframes bounce {
+  to {
+    transform: scale(1.2);
+  }
+}
+
 .navbar__button:hover {
   color: var(--pink-color);
   background-color: var(--white-color);
+  -webkit-animation: bounce 0.4s infinite alternate;
+  -moz-animation: bounce 0.4s infinite alternate;
+  animation: bounce 0.4s infinite alternate;
 }

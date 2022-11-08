@@ -1,7 +1,13 @@
 @import '../../../index.css';
 
 .aboutme {
-  margin: 200px 50px 100px 50px;
+  margin: 200px 50px 50px 50px;
+}
+
+.aboutme hr {
+  border: 5px solid var(--pink-color);
+  opacity: 1;
+  width: 10%;
 }
 
 .aboutme__heading h2 {
@@ -78,4 +84,18 @@
 
 .aboutme__technical-skill img {
   height: 100px;
+  margin: 20px;
+}
+
+.technical-skill--knowledge {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+.technical-skill--knowledge-list {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }

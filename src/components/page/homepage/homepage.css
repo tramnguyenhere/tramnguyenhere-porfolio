@@ -49,7 +49,24 @@
 
   background-size: 200% 100%;
   background-position: 100% 0;
+
   transition: background-position 0.5s;
+}
+
+@-webkit-keyframes bounce {
+  to {
+    -webkit-transform: scale(1.2);
+  }
+}
+@-moz-keyframes bounce {
+  to {
+    -moz-transform: scale(1.2);
+  }
+}
+@keyframes bounce {
+  to {
+    transform: scale(1.2);
+  }
 }
 
 .homepage__button:first-child {
@@ -63,7 +80,9 @@
 .homepage__button:hover {
   background-image: var(--linear-color);
   box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
-  background-position: 0 0;
+  -webkit-animation: bounce 0.4s infinite alternate;
+  -moz-animation: bounce 0.4s infinite alternate;
+  animation: bounce 0.4s infinite alternate;
 }
 
 /* Decoration */
@@ -74,7 +93,7 @@
   border-radius: 50%;
   width: 27px;
   height: 27px;
-  top: 30%;
+  top: 150px;
   left: 280px;
 }
 
@@ -86,7 +105,7 @@
   border-radius: 50%;
   width: 27px;
   height: 27px;
-  top: 60%;
+  top: 300px;
   left: 200px;
 }
 
@@ -98,7 +117,7 @@
   width: 27px;
   height: 27px;
   right: 15%;
-  top: 60%;
+  top: 300px;
 }
 
 .homepage p::after {
@@ -109,5 +128,5 @@
   border-radius: 50%;
   width: 47px;
   height: 47px;
-  top: 30%;
+  top: 150px;
 }

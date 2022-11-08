@@ -5,6 +5,7 @@ import passion from '../../../assets/img/direction.jpg';
 const AboutMe = () => {
   return (
     <div className='aboutme'>
+      <hr />
       <div className='aboutme__heading'>
         <h2>About Me</h2>
         <h1>"From a marketing student to a front end developer"</h1>
@@ -45,32 +46,36 @@ const AboutMe = () => {
 
       <div className='aboutme__technical-skill'>
         <h1>Is it me who are you looking for?</h1>
-        <div>
+        <div className='technical-skill--knowledge'>
           <h3>Programming languages</h3>
-          <img alt='HTML' src='https://i.stack.imgur.com/PgcSR.png' />
-          <img
-            alt='HTML'
-            src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png'
-          />
-          <img
-            alt='HTML'
-            src='https://www.computerhope.com/jargon/j/javascript.png'
-          />
-          <img
-            alt='HTML'
-            src='https://www.tutorialsteacher.com/Content/images/home/typescript.svg'
-          />
+          <div className='technical-skill--knowledge-list'>
+            <img alt='HTML' src='https://i.stack.imgur.com/PgcSR.png' />
+            <img
+              alt='HTML'
+              src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png'
+            />
+            <img
+              alt='HTML'
+              src='https://www.computerhope.com/jargon/j/javascript.png'
+            />
+            <img
+              alt='HTML'
+              src='https://www.tutorialsteacher.com/Content/images/home/typescript.svg'
+            />
+          </div>
         </div>
-        <div>
+        <div className='technical-skill--knowledge'>
           <h3>Frameworks</h3>
-          <img
-            alt='HTML'
-            src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png'
-          />
-          <img
-            alt='HTML'
-            src='https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_f0b606abb6d19089febc9faeeba5bc05/nodejs-development-services.png'
-          />
+          <div className='technical-skill--knowledge-list'>
+            <img
+              alt='HTML'
+              src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png'
+            />
+            <img
+              alt='HTML'
+              src='https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_f0b606abb6d19089febc9faeeba5bc05/nodejs-development-services.png'
+            />
+          </div>
         </div>
       </div>
     </div>
