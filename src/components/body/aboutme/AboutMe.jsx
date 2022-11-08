@@ -22,10 +22,11 @@ const AboutMe = () => {
           <p>
             Internet is the treasure of the 21st century. I've learned many
             things from algorithm, data structures, efficient memory in computer
-            sciences to programming languages, and how to utilize different
-            frameworks. It would be nice-ish in the beginning but the next step
-            to leverage my coding skills and programming logic is by working
-            with other coders to build practical projects. Now,{' '}
+            sciences to HTML, CSS, JavaScript, TypeScript, and how to utilize
+            different frameworks such as ReactJS. It would be nice-ish in the
+            beginning but the next step to leverage my coding skills and
+            programming logic is by working with other coders to build practical
+            projects. Now,{' '}
             <span>
               I am finding opportunities to add more values as an entry-level
               frontend developer, and learn more from experienced folks in the
