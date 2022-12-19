@@ -16,22 +16,20 @@ const AboutMe = () => {
             The chemistry between me and computer sciences established 1 years
             ago when I was assigned to build a website in the computer network
             course. I was fascinated at how I could one day use logical codes to
-            express my ideas in a real webpage. It was the moment I realized
-            that I wanted to do much more than that. After university, I spend
-            everyday to chase web development in a professional path.
+            express my ideas in a real webpage. After university, I spend
+            everyday to teach myself coding, as well as complete several online
+            courses to gain the skills and knowledge necessary for the tech
+            industry.
           </p>
           <p>
-            Internet is the treasure of the 21st century. I've learned many
-            things from algorithm, data structures, efficient memory in computer
-            sciences to HTML, CSS, JavaScript, TypeScript, and how to utilize
-            different frameworks such as ReactJS. It would be nice-ish in the
-            beginning but the next step to leverage my coding skills and
-            programming logic is by working with other coders to build practical
-            projects. Now,{' '}
+            I've been learning and practicing from data structures and
+            algorithm, to JavaScript, TypeScript, and how to utilize different
+            modern libraries such as ReactJs, Redux and NodeJs. Now,
             <span>
-              I am finding opportunities to add more values as an entry-level
-              frontend developer, and learn more from experienced folks in the
-              industry.
+              I am excited to take my passion for technology to the next level
+              and pursue a career in frontend development, where I can use my
+              problem-solving, collaboration and communication skills to create
+              meaningful and user-friendly applications.
             </span>
           </p>
         </div>
