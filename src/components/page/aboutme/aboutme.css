@@ -1,7 +1,8 @@
 @import '../../../index.css';
 
 .aboutme {
-  margin: 200px 50px 50px 50px;
+  margin: 100px 50px 50px 50px;
+  padding-top: 75px;
 }
 
 .aboutme hr {
@@ -46,6 +47,59 @@
   background: var(--linear-color);
 }
 
+.aboutme__skillsets {
+  width: 193px;
+  height: 57px;
+  border: none;
+  box-shadow: 0px 9px 28px rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--white-color);
+  background: var(--linear-color);
+  transition: 0.25s ease-in;
+
+  background-size: 200% 100%;
+  background-position: 100% 0;
+
+  transition: background-position 0.5s;
+}
+
+.aboutme__skillsets a {
+  text-decoration: none;
+  color: var(--white-color);
+  margin: 0;
+  padding: 0;
+}
+
+@-webkit-keyframes bounce {
+  to {
+    -webkit-transform: scale(1.2);
+  }
+}
+@-moz-keyframes bounce {
+  to {
+    -moz-transform: scale(1.2);
+  }
+}
+@keyframes bounce {
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.aboutme__skillsets:hover {
+  background-image: var(--linear-color);
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+  -webkit-animation: bounce 0.4s infinite alternate;
+  -moz-animation: bounce 0.4s infinite alternate;
+  animation: bounce 0.4s infinite alternate;
+  text-decoration: none;
+}
+.aboutme__skillsets a:hover {
+  color: var(--white-color) !important;
+}
+
 .aboutme__story--passion {
   display: flex;
   flex-direction: column;
@@ -55,7 +109,7 @@
 .aboutme__story--passion img {
   width: 300px;
   border-radius: 20px;
-  box-shadow: 10px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .aboutme__story--passion h4 {
@@ -71,31 +125,4 @@
 
 .aboutme__story--passion p {
   font-size: 22px;
-}
-
-.aboutme__technical-skill h1 {
-  color: var(--orange-color);
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 39px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.aboutme__technical-skill img {
-  height: 100px;
-  margin: 20px;
-}
-
-.technical-skill--knowledge {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 100%;
-}
-
-.technical-skill--knowledge-list {
-  display: flex;
-  justify-content: center;
-  width: 100%;
 }

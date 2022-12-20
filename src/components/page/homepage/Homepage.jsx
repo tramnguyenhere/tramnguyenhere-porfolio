@@ -1,21 +1,20 @@
 import React from 'react';
 import '../homepage/homepage.css';
+import data from '../../../data/homepageData';
 
 const Homepage = () => {
   return (
     <div className='homepage'>
-      <h1>Hello I am Tram Nguyen and a Front End Developer</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae senectus
-        neque, lorem sit in mattis. Vehicula eget eget tellus purus nunc lacus,
-        purus. Ut faucibus pellentesque egestas ultrices nulla sapien sed. Diam
-        congue est scelerisque quam turpis. Ut faucibus pellentesque egestas
-        ultrices nulla sapien sed. Diam congue est scelerisque quam turpis.
-      </p>
+      <h1>{data.title}</h1>
+      <p>"{data.subtitle}"</p>
 
       <div className='homepage__buttons'>
-        <button className='homepage__button'>About me</button>
-        <button className='homepage__button'>Explore my works</button>
+        <button className='homepage__button'>
+          <a href='#aboutme'>About me</a>
+        </button>
+        <button className='homepage__button'>
+          <a href='#works'>Explore my works</a>
+        </button>
       </div>
     </div>
   );

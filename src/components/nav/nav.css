@@ -47,10 +47,15 @@
   display: inline-block;
   position: relative;
   margin-left: 50px;
+  text-decoration: none;
 }
 
 .navbar__link:first-child {
   margin-left: 0;
+}
+
+.navbar__link:hover {
+  color: var(--white-color);
 }
 
 .navbar__link::after {
@@ -67,6 +72,7 @@
 }
 
 .navbar__link:hover:after {
+  cursor: pointer;
   transform: scaleX(1);
   transform-origin: bottom left;
 }

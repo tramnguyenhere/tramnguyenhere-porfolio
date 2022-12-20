@@ -14,7 +14,7 @@
   font-style: normal;
   font-weight: 800;
   font-size: 64px;
-  line-height: 78px;
+  line-height: 90px;
   text-align: center;
   color: var(--white-color);
 }
@@ -23,8 +23,8 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 30px;
+  line-height: 40px;
   text-align: center;
   color: var(--white-color);
   padding: 20px 100px;
@@ -83,6 +83,12 @@
   -webkit-animation: bounce 0.4s infinite alternate;
   -moz-animation: bounce 0.4s infinite alternate;
   animation: bounce 0.4s infinite alternate;
+}
+
+.homepage__button a,
+.homepage__button a:hover {
+  color: var(--white-color);
+  text-decoration: none;
 }
 
 /* Decoration */

@@ -19,21 +19,25 @@ const NavigationBar = () => {
       </div>
       <div className='navbar__list'>
         <ul>
-          <li className='navbar__link' active href='/'>
-            Home
-          </li>
+          <a className='navbar__link' active href='/'>
+            home
+          </a>
 
-          <li className='navbar__link' active href='/'>
-            About me
-          </li>
+          <a className='navbar__link' active href='#aboutme'>
+            my story
+          </a>
 
-          <li className='navbar__link' active href='/'>
-            Works
-          </li>
+          <a className='navbar__link' active href='#skillsets'>
+            my skills
+          </a>
 
-          <li className='navbar__link' active href='/'>
-            Contact
-          </li>
+          <a className='navbar__link' active href='#works'>
+            my works
+          </a>
+
+          <a className='navbar__link' active href='/'>
+            contact
+          </a>
         </ul>
       </div>
       <div>

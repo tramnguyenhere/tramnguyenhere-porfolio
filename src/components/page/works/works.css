@@ -2,6 +2,7 @@
 
 .works {
   margin: 100px 50px;
+  padding-top: 80px;
 }
 
 .works hr {
@@ -26,14 +27,18 @@
 
 .works__cards {
   display: flex;
+  width: 100%;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .works__card {
   margin-top: 50px;
   width: 30%;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .works__card--desc {
@@ -43,16 +48,29 @@
 
 .works__card--thumb {
   width: 100%;
-  height: 276px;
-  background: var(--linear-color);
+  max-height: 276px;
+}
+
+.works__card--thumb img {
   border-radius: 10px;
+  width: 100%;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.work-tech {
+  display: flex;
+}
+
+.work-tech img {
+  width: 30px;
+  margin: 0px 10px 20px 0;
 }
 
 .card__buttons {
   display: flex;
 }
 
-.card__buttons button {
+.card__buttons a {
   font-weight: 400;
   font-size: 15px;
   width: 100%;
@@ -61,13 +79,16 @@
   padding: 5px;
   background: transparent;
   transition: 0.2s ease-out;
+  color: var(--pink-color);
+  text-decoration: none;
+  text-align: center;
 }
 
-.card__buttons button:first-child {
+.card__buttons a:first-child {
   margin-right: 20px;
 }
 
-.card__buttons button:hover {
+.card__buttons a:hover {
   background: var(--linear-color);
   color: var(--white-color);
 }

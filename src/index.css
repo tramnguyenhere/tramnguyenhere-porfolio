@@ -13,7 +13,7 @@
 
 @font-face {
   font-family: 'Custom Handwriting';
-  src: url(./assets/font/Dpdorkdiary-P267.ttf);
+  src: url(../public/assets/font/Dpdorkdiary-P267.ttf);
 }
 
 * {
@@ -29,7 +29,7 @@
 .theme {
   height: var(--theme-height);
   left: -380px;
-  background: url('/src/assets/img/homepage.png');
+  background: url('./img/homepage.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
