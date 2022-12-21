@@ -1,29 +1,31 @@
 import React from 'react';
-
+import SectionHeading from '../../components/SectionHeading/SectionHeading';
 import projects from '../../data/projectsData';
 
-import './works.scss';
+import './Works.scss';
+import Button from '../../components/Button/Button';
 
 const Works = () => {
   return (
     <div id='works'>
       <div className='works'>
-        <hr />
-        <div className='works__heading'>
-          <h2>Work</h2>
-          <h1>My projects</h1>
-        </div>
+        <SectionHeading heading='my works' subHeading='my projects' />
         <div className='works__cards'>
           {projects.map((project) => (
             <div className='works__card' key={project.id}>
-              <div className='works__card--thumb'>
+              <a
+                target='_blank'
+                rel='noreferrer'
+                href={project.demoLink}
+                className='works__card--thumb'
+              >
                 <img
                   alt='project-img'
                   src={`./assets/project-thumb/${project.image}`}
                 />
-              </div>
+              </a>
               <div className='works__card--desc'>
-                <h4>{project.name} </h4>
+                <h4>{project.name}</h4>
                 <p>{project.description}</p>
                 <div className='work-tech'>
                   {project.tech.map((item) => (
@@ -36,12 +38,17 @@ const Works = () => {
                 </div>
 
                 <div className='card__buttons'>
-                  <a target='_blank' rel='noreferrer' href={project.demoLink}>
-                    Demo
-                  </a>
-                  <a target='_blank' rel='noreferrer' href={project.sourceCode}>
-                    Source code
-                  </a>
+                  <Button
+                    href={project.demoLink}
+                    btnName='demo'
+                    className='button button--pink'
+                  />
+                  <Button
+                    href={project.sourceCode}
+                    btnName='source code'
+                    id='source-code'
+                    className='button button--pink'
+                  />
                 </div>
               </div>
             </div>

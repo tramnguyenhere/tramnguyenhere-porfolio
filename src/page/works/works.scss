@@ -2,93 +2,73 @@
 
 .works {
   margin: 100px 50px;
-  padding-top: 80px;
+  padding-top: 90px;
+  
+  .works__cards {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    .works__card {
+      margin-top: 50px;
+      width: 32%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      
+      
+      .works__card--desc {
+        margin: 20px 0px;
+        text-align: justify;
+
+        h4 {
+          font-size: 24px;
+        }
+
+        p {
+          font-size: 18px;
+        }
+
+        .work-tech {
+          margin-top: 10px;
+          display: flex;
+
+          img {
+            width: 30px;
+            margin: 0px 10px 20px 0;
+          }
+        }
+
+        .card__buttons {
+          display: flex;
+        }
+      }
+      
+      .works__card--thumb {
+        width: 100%;
+        border: none;
+        transition: all .4s ease-in-out;
+      background-color: transparent;
+
+        &:hover {
+          cursor: pointer;
+          z-index: 10000;
+          transform: scale(1.1);
+        }
+        
+        img {
+          border-radius: 10px;
+          width: 100%;
+          box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+        }
+      }
+    }
+  }
 }
 
-.works hr {
-  border: 5px solid var(--pink-color);
-  opacity: 1;
-  width: 10%;
-}
 
-.works h2 {
-  color: var(--pink-color);
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 39px;
-}
 
-.works h1 {
-  font-weight: 800;
-  font-size: 40px;
-}
 
-.works__cards {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
 
-.works__card {
-  margin-top: 50px;
-  width: 30%;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.works__card--desc {
-  margin: 20px 0px;
-  text-align: justify;
-}
-
-.works__card--thumb {
-  width: 100%;
-  max-height: 290px;
-}
-
-.works__card--thumb img {
-  border-radius: 10px;
-  width: 100%;
-  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
-}
-
-.work-tech {
-  display: flex;
-}
-
-.work-tech img {
-  width: 30px;
-  margin: 0px 10px 20px 0;
-}
-
-.card__buttons {
-  display: flex;
-}
-
-.card__buttons a {
-  font-weight: 400;
-  font-size: 15px;
-  width: 100%;
-  border: 1px solid var(--pink-color);
-  border-radius: 10px;
-  padding: 5px;
-  background: transparent;
-  transition: 0.2s ease-out;
-  color: var(--pink-color);
-  text-decoration: none;
-  text-align: center;
-}
-
-.card__buttons a:first-child {
-  margin-right: 20px;
-}
-
-.card__buttons a:hover {
-  background: var(--linear-color);
-  color: var(--white-color);
-}

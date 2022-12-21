@@ -15,16 +15,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.hidden {
-  display: none;
-}
-
-.theme {
-  height: var(--theme-height);
-  left: -380px;
-  background: url('./img/homepage.png');
-  background-repeat: no-repeat;
-  background-size: contain;
+body {
+  width: 100%;
+  /* overflow-x: hidden; */
 }
