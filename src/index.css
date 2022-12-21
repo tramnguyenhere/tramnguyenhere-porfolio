@@ -11,11 +11,6 @@
   --theme-height: 1128.2px;
 }
 
-@font-face {
-  font-family: 'Custom Handwriting';
-  src: url(../public/assets/font/Dpdorkdiary-P267.ttf);
-}
-
 * {
   margin: 0;
   padding: 0;

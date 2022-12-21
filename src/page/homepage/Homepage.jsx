@@ -1,6 +1,6 @@
 import React from 'react';
-import '../homepage/homepage.css';
-import data from '../../../data/homepageData';
+import '../homepage/homepage.scss';
+import data from '../../data/homepageData';
 
 const Homepage = () => {
   return (

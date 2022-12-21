@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { programmingLanguage, others } from '../../../data/technicalSkills';
-import computer from '../../../img/computer.jpg';
+import { programmingLanguage, others } from '../../data/technicalSkills';
+import computer from '../../img/computer.jpg';
 
-import './skillsets.css';
+import './skillsets.scss';
 
 const Skillsets = () => {
   return (

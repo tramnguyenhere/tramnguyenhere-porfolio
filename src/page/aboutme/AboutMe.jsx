@@ -1,10 +1,9 @@
 import React from 'react';
 
-import passion from '../../../img/direction.jpg';
-import data from '../../../data/aboutMeData';
+import passion from '../../img/direction.jpg';
+import data from '../../data/aboutMeData';
 
-import '../aboutme/aboutme.css';
-import Skillsets from '../skillsets/Skillsets';
+import './aboutme.scss';
 
 const AboutMe = () => {
   return (

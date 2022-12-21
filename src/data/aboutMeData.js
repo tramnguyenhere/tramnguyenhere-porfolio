@@ -5,7 +5,7 @@ const aboutMeData = {
   skillsets:
     "I've been learning and practicing from data structures and algorithm, to JavaScript, TypeScript, and how to utilize different modern libraries such as ReactJs, Redux and NodeJs.",
   objective:
-    ' Now I am excited to take my passion to the next level and pursue a career in frontend development, where I can use my  problem-solving, collaboration and communication skills to create  meaningful and user-friendly applications.',
+    ' Now I am excited to take my passion to the next level and pursue a career in frontend development, where I can use my  problem-solving, collaboration and communication skills to create meaningful and user-friendly applications.',
 };
 
 export default aboutMeData;
