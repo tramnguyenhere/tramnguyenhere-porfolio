@@ -1,16 +1,9 @@
 import React from 'react';
 import './Button.scss';
 
-const Button = ({ href, className, id, btnName, onMouseOver, onMouseOut }) => {
+const Button = ({ href, className, id, btnName, key }) => {
   return (
-    <a
-      type='button'
-      href={href}
-      className={className}
-      id={id}
-      onMouseOver={onMouseOver}
-      onMouseOut={onMouseOut}
-    >
+    <a key={key} type='button' href={href} className={className} id={id}>
       {btnName}
     </a>
   );

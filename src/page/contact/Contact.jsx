@@ -1,24 +1,24 @@
 import React from 'react';
-import './contact.scss';
+
+import data from '../../data/contactData';
+
+import './Contact.scss';
+import Button from '../../components/Button/Button';
 
 const Contact = () => {
   return (
-    <div className='contact'>
+    <div id='contact'>
       <div className='contact__wrapper'>
         <h1>Get in Touch</h1>
         <div className='contact__buttons'>
-          <button>
-            <i class='fa-solid fa-envelope'></i>
-          </button>
-          <button>
-            <i class='fa-solid fa-phone'></i>
-          </button>
-          <button>
-            <i class='fa-brands fa-github'></i>
-          </button>
-          <button>
-            <i class='fa-brands fa-linkedin'></i>
-          </button>
+          {data.map((item) => (
+            <Button
+              key={item.name}
+              className='button button--white contact-info'
+              href={item.url}
+              btnName={<i className={item.faIcon}></i>}
+            />
+          ))}
         </div>
       </div>
     </div>

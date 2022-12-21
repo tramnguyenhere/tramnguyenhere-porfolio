@@ -1,1 +1,117 @@
-@import '../../styles/global.scss'
+@import '../../styles/global.scss';
+
+.button {
+    color: $--white-color;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    transition: 0.25s ease-out;
+    padding: 10px 30px;
+    width: fit-content;
+
+    &:hover {
+      cursor: pointer;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+        -webkit-animation: bounce 0.4s infinite alternate;
+        -moz-animation: bounce 0.4s infinite alternate;
+        animation: bounce 0.4s infinite alternate;
+      } 
+}
+
+.button--pink {
+  color: var(--white-color) !important;
+  background: var(--linear-color);
+}
+
+.button--white {
+  color: var(--pink-color);
+  background-color: $--white-color;
+  border: none;
+  font-weight: 300;
+  
+  &:hover {
+      color: var(--pink-color);
+      background-color: var(--white-color);
+  }
+}
+
+@-webkit-keyframes bounce {
+  to {
+    -webkit-transform: scale(1.2);
+  }
+}
+@-moz-keyframes bounce {
+to {
+  -moz-transform: scale(1.2);
+}
+}
+@keyframes bounce {
+to {
+  transform: scale(1.2);
+}
+}
+
+.link {
+    font-size: 30px;
+    font-weight: 200;
+    color: var(--white-color);
+    display: inline-block;
+    position: relative;
+    margin-left: 50px;
+    text-decoration: none;
+
+    &:first-child {
+        margin-left: 0;  
+    }
+
+    &:hover {
+        color: $--white-color;
+      }
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 50%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 25%;
+        background-color: var(--white-color);
+        transform-origin: bottom right;
+        transition: transform 0.25s ease;
+      }
+
+    &:hover:after {
+        cursor: pointer;
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+}
+
+
+
+#aboutme__skillsets {
+  margin-top: 20px;
+}
+
+#my-work {
+  border: 3px solid var(--white-color);
+  margin-left: 50px;
+}
+
+#source-code {
+  margin-left: 10px;
+}
+
+.contact-info {
+  margin-left: 40px;
+  font-size: 50px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}

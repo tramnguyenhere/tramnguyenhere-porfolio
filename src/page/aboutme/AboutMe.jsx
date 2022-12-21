@@ -1,29 +1,28 @@
 import React from 'react';
 
+import Button from '../../components/Button/Button';
 import passion from '../../img/direction.jpg';
 import data from '../../data/aboutMeData';
 
-import './aboutme.scss';
+import './AboutMe.scss';
+import SectionHeading from '../../components/SectionHeading/SectionHeading';
 
 const AboutMe = () => {
   return (
     <div id='aboutme'>
       <div className='aboutme'>
-        <hr />
-        <div className='aboutme__heading'>
-          <h2>About Me</h2>
-          <h1>{data.headline}</h1>
-        </div>
+        <SectionHeading heading='about me' subHeading={data.headline} />
         <div className='aboutme__story'>
-          <div className='aboutme__story--history'>
+          <div className='aboutme__story--journey'>
             <p>{data.story}</p>
-            <p>
-              {data.skillsets}
-              <span>{data.objective}</span>
-            </p>
-            <button className='aboutme__skillsets'>
-              <a href='#skillsets'>Explore My Skills</a>
-            </button>
+            <p>{data.skillsets}</p>
+            <strong>{data.objective}</strong>
+            <Button
+              className='button button--pink'
+              btnName='explore my skills'
+              href='#skillsets'
+              id='aboutme__skillsets'
+            />
           </div>
           <div className='aboutme__story--passion'>
             <img src={passion} alt='passion' />

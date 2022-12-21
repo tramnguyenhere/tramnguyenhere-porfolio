@@ -1,17 +1,17 @@
 import React from 'react';
-import NavigationBar from './components/nav/Nav';
+import NavigationBar from './components/NavBar/NavBar';
 import Footer from './components/footer/Footer';
-import Homepage from './page/homepage/Homepage';
-import AboutMe from './page/aboutme/AboutMe';
-import Works from './page/works/Works';
-import Contact from './page/contact/Contact';
-import Skillsets from './page/skillsets/Skillsets';
+import HomePage from './page/HomePage/HomePage';
+import AboutMe from './page/AboutMe/AboutMe';
+import Works from './page/Works/Works';
+import Contact from './page/Contact/Contact';
+import Skillsets from './page/Skillsets/Skillsets';
 
 const App = () => {
   return (
     <div>
       <NavigationBar />
-      <Homepage />
+      <HomePage />
       <AboutMe />
       <Skillsets />
       <Works />
