@@ -7,9 +7,11 @@ import Works from './page/Works/Works';
 import Contact from './page/Contact/Contact';
 import Skillsets from './page/Skillsets/Skillsets';
 
+import './styles/App.scss';
+
 const App = () => {
   return (
-    <div>
+    <div className='theme'>
       <NavigationBar />
       <HomePage />
       <AboutMe />

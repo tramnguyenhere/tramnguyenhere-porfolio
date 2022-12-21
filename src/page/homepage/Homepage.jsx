@@ -1,14 +1,12 @@
 import React from 'react';
 
 import Button from '../../components/Button/Button';
-import theme from '../../img/homepage.png';
 import './HomePage.scss';
 import data from '../../data/homepageData';
 
 const Homepage = () => {
   return (
     <div className='homepage'>
-      <img id='theme-img' src={theme} alt='theme' />
       <h1>{data.name}</h1>
       <h1>{data.title}</h1>
       <p>"{data.subtitle}"</p>
