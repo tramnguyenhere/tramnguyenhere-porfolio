@@ -26,3 +26,18 @@
     
     }
 }
+
+// Laptop
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .heading {
+    h2 {
+        font-size: 30px !important;
+        line-height: 39px;
+        margin-top: 30px;
+    }
+
+    h1 {
+        font-size: 40px !important;
+    }
+  }
+} 

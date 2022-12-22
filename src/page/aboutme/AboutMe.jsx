@@ -17,12 +17,6 @@ const AboutMe = () => {
             <p>{data.story}</p>
             <p>{data.skillsets}</p>
             <strong>{data.objective}</strong>
-            <Button
-              className='button button--pink'
-              btnName='explore my skills'
-              href='#skillsets'
-              id='aboutme__skillsets'
-            />
           </div>
           <div className='aboutme__story--passion'>
             <img src={passion} alt='passion' />
@@ -30,6 +24,12 @@ const AboutMe = () => {
               Computer <br />
               Sciences
             </h4>
+            <Button
+              className='button button--pink'
+              btnName='explore my skills'
+              href='#skillsets'
+              id='aboutme__skillsets'
+            />
           </div>
         </div>
       </div>
