@@ -1,7 +1,6 @@
 # tramnguyenhere - Personal Portfolio
 
-- Welcome to the A Space! This application provides a customizable virtual space for you to focus, with the added benefits of different sound effects and music to help you concentrate.
-- This application is developed from the scratch based on the design of the popular website: Lofi.co. This is mere a personal project to practice web development with no intention for commercial purpose.
+- A portfolio to showcase my career journey, skillsets, and personal frontend and fullstack projects
 
 ## Features
 
