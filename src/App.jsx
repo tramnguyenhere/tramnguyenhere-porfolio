@@ -1,7 +1,7 @@
 import React from 'react';
 import NavigationBar from './components/NavBar/NavBar';
 import Footer from './components/footer/Footer';
-import HomePage from './page/HomePage/HomePage';
+// import HomePage from './page/HomePage/HomePage';
 import AboutMe from './page/AboutMe/AboutMe';
 import Works from './page/Works/Works';
 import Contact from './page/Contact/Contact';
@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div className='theme'>
       <NavigationBar />
-      <HomePage />
+      {/* <HomePage /> */}
       <AboutMe />
       <Skillsets />
       <Works />
