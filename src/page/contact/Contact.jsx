@@ -12,12 +12,13 @@ const Contact = () => {
         <h1>Get in Touch</h1>
         <div className='contact__buttons'>
           {data.map((item) => (
-            <Button
-              key={item.name}
-              className='button button--white contact-info'
-              href={item.url}
-              btnName={<i className={item.faIcon}></i>}
-            />
+            <div key={item.name}>
+              <Button
+                className='button button--white contact-info'
+                href={item.url}
+                btnName={<i className={item.faIcon}></i>}
+              />
+            </div>
           ))}
         </div>
       </div>

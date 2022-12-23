@@ -41,13 +41,14 @@ const NavigationBar = () => {
           onClick={closeNav}
         />
         {data.map((item) => (
-          <Button
-            className='link'
-            href={item.href}
-            btnName={item.name}
-            key={item.key}
-            onClick={closeNav}
-          />
+          <div key={item.id}>
+            <Button
+              className='link'
+              href={item.href}
+              btnName={item.name}
+              onClick={closeNav}
+            />
+          </div>
         ))}
         <Button
           btnName='Download CV'

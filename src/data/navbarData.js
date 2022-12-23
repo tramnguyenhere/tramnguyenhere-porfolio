@@ -1,28 +1,27 @@
-import { v4 as uuid } from 'uuid';
 const navbarData = [
   {
-    key: uuid(),
+    id: 'nav-home',
     name: 'home',
     href: '/',
   },
   {
-    key: uuid(),
+    id: 'nav-story',
     name: 'my story',
     href: '#aboutme',
   },
   {
-    key: uuid(),
+    id: 'nav-skills',
     name: 'my skills',
     href: '#skillsets',
   },
   {
-    key: uuid(),
+    id: 'nav-works',
     name: 'my works',
     href: '#works',
     className: 'link',
   },
   {
-    key: uuid(),
+    id: 'nav-contact',
     name: 'contact',
     href: '#contact',
   },
