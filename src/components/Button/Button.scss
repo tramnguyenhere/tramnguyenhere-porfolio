@@ -61,12 +61,8 @@ to {
     color: var(--white-color);
     display: inline-block;
     position: relative;
-    margin-left: 50px;
+    margin-left: 20px !important;
     text-decoration: none;
-
-    &:first-child {
-        margin-left: 0;  
-    }
 
     &:hover {
         color: $--white-color;
