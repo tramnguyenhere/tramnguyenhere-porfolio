@@ -8,6 +8,17 @@
   margin: 0px 40px;
   background: transparent;
   color: $--white-color;
+
+  .navbar__overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 9;
+    background: rgba($color: #000000, $alpha: 0.6);
+    display: none;
+  }
   
   .navbar__brand {
     display: flex;
@@ -27,6 +38,10 @@
       padding-left: 10px;
     }
   }
+
+  .navbar__toggle {
+    display: none;
+  }
   
   .navbar__list {
     display: flex;
@@ -37,8 +52,6 @@
 
 // Laptop
 @media (min-width: 1024px) and (max-width: 1439px) {
-  .navbar__brand {
-
     .navbar__brand--logo {
       width: 30px !important;
       height: 30px !important;
@@ -47,5 +60,86 @@
     .navbar__brand--name {
       font-size: 20px !important;
     }
+  
+}
+
+//Tablet
+@media (min-width: 768px) and (max-width: 1023px) {
+  .navbar__brand--logo {
+    width: 30px !important;
+    height: 30px !important;
   }
+
+  .navbar__brand--name {
+    font-size: 20px !important;
+  }
+
+  .navbar__toggle {
+    display: block !important;
+  }
+
+  .navbar__list {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-end !important;
+    background-color: $--white-color;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 10;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+  
+  .visible {
+    display: block !important;
+  }
+  
+}
+
+//Mobile
+@media (max-width: 767px) {
+  .navbar {
+    height: 60px;
+    .navbar__brand--logo {
+      display: none;
+    }
+  
+    .navbar__brand--name {
+      display: none;
+    }
+  
+    .navbar__toggle {
+      display: block !important;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+  
+    .navbar__list {
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      display: flex !important;
+      flex-direction: column;
+      align-items: flex-end !important;
+      background-color: $--white-color;
+      padding: 20px;
+      border-radius: 10px;
+      z-index: 10;
+    }
+  
+    .hidden {
+      display: none !important;
+    }
+    
+    .visible {
+      display: block !important;
+    }
+  }
+  
 }

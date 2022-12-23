@@ -89,3 +89,69 @@
     }
   }
 }
+
+// Tablet
+@media (min-width: 768px) and (max-width: 1023px) {
+  .aboutme {
+    margin: 150px 50px 100px 50px;
+    padding-top: 20px;
+
+    .aboutme__story {
+      margin-top: 30px;
+      justify-content: space-around;
+
+      .aboutme__story--journey {
+        font-size: 14px;
+        line-height: 180%;
+
+        strong {
+          line-height: 180%;
+          text-align: right;
+        }
+      }
+
+      .aboutme__story--passion {
+        img {
+          width: 250px;
+        }
+
+        h4 {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+}
+
+//Mobile
+@media (max-width: 767px) {
+  .aboutme {
+    margin: 50px 20px;
+    padding-top: 20px;
+
+    .aboutme__story {
+      margin-top: 20px;
+      justify-content: space-around;
+
+      .aboutme__story--journey {
+        font-size: 14px;
+        line-height: 180%;
+
+        strong {
+          line-height: 180%;
+          text-align: right;
+        }
+      }
+
+      .aboutme__story--passion {
+        img {
+          width: 250px;
+        }
+
+        h4 {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+}

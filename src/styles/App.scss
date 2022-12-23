@@ -3,11 +3,5 @@
 .theme {
     background-image: url('../img/homepage.png');
     background-repeat: no-repeat;
-}
-
-// Laptop
-@media (min-width: 1024px) and (max-width: 1439px) {
-    .theme {
-      background-size: contain;
-    }
+    background-size: contain;
 }

@@ -1,23 +1,59 @@
-import React from 'react';
-import './NavBar.scss';
+import React, { useState } from 'react';
 import Button from '../Button/Button';
+import data from '../../data/navbarData';
+import './NavBar.scss';
 
 const NavigationBar = () => {
+  const [navVisible, setNavVisible] = useState(false);
+
+  const toggleHandler = (e) => {
+    e.preventDefault();
+    setNavVisible(!navVisible);
+  };
+
+  const closeNav = (e) => {
+    setNavVisible(false);
+  };
+
   return (
     <nav className='navbar'>
+      <div
+        className={`navbar__overlay ${navVisible && 'visible'}`}
+        onClick={toggleHandler}
+      ></div>
       <div className='navbar__brand'>
         <div className='navbar__brand--logo'></div>
         <span className='navbar__brand--name'>tramnguyenhere</span>
       </div>
-      <div className='navbar__list'>
-        <Button className='link' href='/' btnName='home' />
-        <Button className='link' href='#aboutme' btnName='my story' />
-        <Button className='link' href='#skillsets' btnName='my skills' />
-        <Button className='link' href='#works' btnName='my works' />
-        <Button className='link' href='#contact' btnName='contact' />
+      <div className={`navbar__toggle ${navVisible && 'hidden'}`}>
+        <Button
+          className='button'
+          id='toggle'
+          btnName={<i className='fa-solid fa-bars'></i>}
+          onClick={toggleHandler}
+        />
       </div>
-      <div>
-        <Button btnName='Download CV' className='button button--white' />
+      <div className={`navbar__list ${!navVisible && 'hidden'}`}>
+        <Button
+          btnName={<i className='fa-sharp fa-solid fa-square-xmark'></i>}
+          id='closeNav'
+          className='button button--white'
+          onClick={closeNav}
+        />
+        {data.map((item) => (
+          <Button
+            className='link'
+            href={item.href}
+            btnName={item.name}
+            key={item.key}
+            onClick={closeNav}
+          />
+        ))}
+        <Button
+          btnName='Download CV'
+          className='button button--white'
+          id='downloadCV'
+        />
       </div>
     </nav>
   );

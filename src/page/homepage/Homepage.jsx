@@ -16,6 +16,7 @@ const Homepage = () => {
           className='button button--pink'
           btnName='about me'
           href='#aboutme'
+          id='about-me'
         />
         <Button
           className='button button--pink'

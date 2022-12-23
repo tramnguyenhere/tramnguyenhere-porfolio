@@ -41,3 +41,36 @@
     }
   }
 } 
+
+// Tablet
+@media (min-width: 768px) and (max-width: 1023px) {
+    .heading {
+        h2 {
+            font-size: 25px !important;
+            line-height: 39px;
+            margin-top: 30px;
+        }
+    
+        h1 {
+            font-size: 30px !important;
+        }
+      }
+}
+
+//Mobile
+@media (max-width: 767px) {
+    hr {
+        border: 2px solid $--pink-color !important;
+    }
+    .heading {
+        h2 {
+            font-size: 18px !important;
+            line-height:20px !important;
+            margin-top: 30px;
+        }
+    
+        h1 {
+            font-size: 18px !important;
+        }
+      }
+}
