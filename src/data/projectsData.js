@@ -42,10 +42,9 @@ const projectsData = [
     name: 'Personal Portfolio',
     image: 'personal-portfolio.png',
     description: '🌈 Personal Portfolio of a Frontend developer',
-    sourceCode:
-      'https://github.com/tramnguyenhere/ingredient-measurement-converter.git',
-    demoLink: 'https://ingredientmeasurementconverter.netlify.app/',
-    tech: ['js', 'reactjs', 'css', 'figma'],
+    sourceCode: 'https://github.com/tramnguyenhere/tramnguyenhere-porfolio',
+    demoLink: 'https://tramnguyenhere-portfolio.netlify.app/',
+    tech: ['js', 'reactjs', 'sass', 'figma'],
   },
   {
     id: uuid(),
