@@ -127,32 +127,37 @@
 
 //Mobile
 @media (max-width: 767px) {
-  .technical-skill {
-    padding-top: 20px !important;
+  #skillsets {
+    margin: 20px 20px; 
     
-    .technical-skill--knowledge {
+    .technical-skill {
       padding-top: 20px !important;
-
-      h3 {
-        font-size: 20px !important;
-      }
-
-      .technical-skill--knowledge-list {
-        .technical-skill-item {
-          span {
-            font-size: 16px !important;
-            font-weight: 600;
-          }
-          img {
-            height: 60px !important;
-            margin: 23px !important
+      
+      .technical-skill--knowledge {
+        padding-top: 10px !important;
+  
+        h3 {
+          font-size: 10px !important;
+          padding: 10px !important;
+        }
+  
+        .technical-skill--knowledge-list {
+          .technical-skill-item {
+            span {
+              font-size: 12px !important;
+              font-weight: 600;
+            }
+            img {
+              height: 40px !important;
+              margin: 15px !important
+            }
           }
         }
       }
     }
-  }
-
-  .decoration {
-    display: none;
+  
+    .decoration {
+      display: none;
+    }
   }
 }

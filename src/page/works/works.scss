@@ -123,11 +123,12 @@
 //Mobile
 @media (max-width: 767px) {
   .works {
+    margin: 50px 20px;
     padding-top: 20px;
 
     .works__card {
       margin-top: 30px !important;
-      width: 30% !important;
+      width: 100% !important;
 
       .works__card--desc {
         h4 {
