@@ -42,14 +42,12 @@
             display: flex;
             flex-direction: column;
            
-  
             span {
-              font-size: 30px;
+              font-size: 27px;
               font-weight: 600;
             }
   
             img {
-             
               height: 100px;
               margin: 30px;
             }
@@ -67,6 +65,29 @@
   }
 }
 
-@media (max-width: 1023px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .technical-skill {
+    padding-top: 20px !important;
+    
+    .technical-skill--knowledge {
+      padding-top: 20px !important;
 
+      h3 {
+        font-size: 24px !important;
+      }
+
+      .technical-skill--knowledge-list {
+        .technical-skill-item {
+          span {
+            font-size: 20px !important;
+            font-weight: 600;
+          }
+          img {
+            height: 70px !important;
+            margin: 23px !important
+          }
+        }
+      }
+    }
+  }
 }

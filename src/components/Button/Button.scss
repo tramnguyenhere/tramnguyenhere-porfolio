@@ -127,4 +127,28 @@ to {
   .button--white, .button--pink {
     padding: 10px;
   }
+
+  .contact-info {
+    font-size: 40px;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .button, .button--white, .button--pink, .link {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .link {
+    margin-left: 20px;
+  }
+
+  .button--white, .button--pink {
+    padding: 10px;
+  }
+
+  .contact-info {
+    font-size: 40px;
+    margin-left: 20px;
+  }
 }

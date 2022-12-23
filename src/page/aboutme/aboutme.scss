@@ -61,14 +61,30 @@
  // Laptop
 @media (min-width: 1024px) and (max-width: 1439px) {
   .aboutme {
-    padding-top: 10px;
+    padding-top: 20px;
 
     .aboutme__story {
       margin-top: 50px;
+      justify-content: space-around;
 
       .aboutme__story--journey {
         font-size: 18px;
         line-height: 180%;
+
+        strong {
+          line-height: 180%;
+          text-align: right;
+        }
+      }
+
+      .aboutme__story--passion {
+        img {
+          width: 300px;
+        }
+
+        h4 {
+          font-size: 3.4rem;
+        }
       }
     }
   }

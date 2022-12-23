@@ -21,7 +21,7 @@
       
       .works__card--desc {
         margin: 20px 0px;
-        text-align: justify;
+        text-align: left;
 
         h4 {
           font-size: 24px;
@@ -68,7 +68,26 @@
   }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .works {
+    padding-top: 20px;
 
+    .works__card {
+      margin-top: 30px !important;
+      width: 30% !important;
+
+      .works__card--desc {
+        h4 {
+          font-size: 20px !important;
+        }
+
+        p {
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+}
 
 
 
