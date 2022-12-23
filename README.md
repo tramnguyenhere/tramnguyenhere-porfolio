@@ -2,23 +2,19 @@
 
 - A portfolio to showcase my career journey, skillsets, and personal frontend and fullstack projects
 
-## Features
+## Section
 
-- Customizable background with day/night or clear/rain
-- Selection of white noise (rain, keyboard, traffic, campfire, etc.) and music based on moods (sleepy, jazzy, chill)
-- Time details with random quotes from the movie How I Met Your Mother
-
-## Visuals
-
-![Screenshot 2022-12-17 at 21 17 03](https://user-images.githubusercontent.com/57455557/208261510-2a5bf21a-316d-439a-93bf-c611df20f8e6.png)
-![Screenshot 2022-12-17 at 21 17 32](https://user-images.githubusercontent.com/57455557/208261625-203a4f76-978b-405f-b2f7-6fd72b374f4f.png)
-![Screenshot 2022-12-17 at 21 18 09](https://user-images.githubusercontent.com/57455557/208261774-19b0961e-9e48-491c-a58a-265e5d50276e.png)
+- CV
+- Career journey
+- Technical skills
+- Personal project
+- Contact info
 
 ## Getting started
 
 ### Demo:
 
-Feel free to experience the app from [https://aspace-tramnguyenhere.netlify.app/](https://aspace-tramnguyenhere.netlify.app/)
+Feel free to experience the app from [https://tramnguyenhere-portfolio.netlify.app/](https://tramnguyenhere-portfolio.netlify.app/)
 
 ### Install NodeJs and npm
 
@@ -26,7 +22,7 @@ Download and install Node.js from this link https://nodejs.org/en/download/
 
 ### Clone or download this repo.
 
-On your terminal or cmd, type: git clone https://github.com/tramnguyenhere/working_background-app.git\
+On your terminal or cmd, type: git clone https://github.com/tramnguyenhere/tramnguyenhere-porfolio.git
 On your command line, navigate to root folder and install: npm install
 
 ### Deploy the application
@@ -43,7 +39,6 @@ You will also see any lint errors in the console.
 
 ## Technology use in the application
 
-- Typescript
+- JavaScript
 - ReactJS
-- Redux Toolkit
-- SCSS
+- SASS
