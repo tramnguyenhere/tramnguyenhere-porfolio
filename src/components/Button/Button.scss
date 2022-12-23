@@ -102,12 +102,9 @@ to {
 }
 
 .contact-info {
-  margin-left: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
   font-size: 50px;
-
-  &:first-child {
-    margin-left: 0;
-  }
 }
 
 #downloadCV {
@@ -140,7 +137,6 @@ to {
 
   .contact-info {
     font-size: 40px;
-    margin-left: 20px;
   }
 }
 
@@ -198,7 +194,8 @@ to {
 
   .contact-info {
     font-size: 30px;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   #downloadCV {
@@ -272,7 +269,8 @@ to {
 
   .contact-info {
     font-size: 30px;
-    margin-left: 20px !important;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   #downloadCV {
