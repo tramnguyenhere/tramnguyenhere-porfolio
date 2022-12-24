@@ -54,6 +54,7 @@ const NavigationBar = () => {
           btnName='Download CV'
           className='button button--white'
           id='downloadCV'
+          href='https://drive.google.com/file/d/1wdG_oroKDDxpz2ywl9AYHLYIcV8xdX3q/view?usp=sharing'
         />
       </div>
     </nav>
