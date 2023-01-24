@@ -42,13 +42,19 @@ const others = [
   {
     id: uuid(),
     code: 'reactjs',
-    name: 'ReactJs',
+    name: 'React.js',
     type: 'library',
   },
   {
     id: uuid(),
+    code: 'vuejs',
+    name: 'Vue.js',
+    type: 'framework',
+  },
+  {
+    id: uuid(),
     code: 'nodejs',
-    name: 'NodeJs',
+    name: 'Node.js',
     type: 'library',
   },
   {
