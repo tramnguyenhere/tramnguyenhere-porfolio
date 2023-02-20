@@ -2,6 +2,16 @@ import { v4 as uuid } from 'uuid';
 const projectsData = [
   {
     id: uuid(),
+    name: 'Personal Portfolio - verson 2.0',
+    image: 'personal-portfolio-v2.png',
+    description:
+      '[Ongoing] Redesigned Personal Portfolio of a Frontend developer with Vue.js',
+    sourceCode: 'https://github.com/tramnguyenhere/portfolio-v2.git',
+    demoLink: 'https://aspace-tramnguyenhere.netlify.app/',
+    tech: ['html', 'javascript', 'vuejs', 'sass'],
+  },
+  {
+    id: uuid(),
     name: 'A Space',
     image: 'a-space.png',
     description:
