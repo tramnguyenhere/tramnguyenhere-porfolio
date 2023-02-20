@@ -8,7 +8,7 @@ const projectsData = [
       '[Ongoing] Redesigned Personal Portfolio of a Frontend developer with Vue.js',
     sourceCode: 'https://github.com/tramnguyenhere/portfolio-v2.git',
     demoLink: 'https://aspace-tramnguyenhere.netlify.app/',
-    tech: ['html', 'javascript', 'vuejs', 'sass'],
+    tech: ['html', 'js', 'vuejs', 'sass'],
   },
   {
     id: uuid(),
