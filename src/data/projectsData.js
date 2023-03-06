@@ -7,7 +7,7 @@ const projectsData = [
     description:
       '[Ongoing] Redesigned Personal Portfolio of a Frontend developer with Vue.js',
     sourceCode: 'https://github.com/tramnguyenhere/portfolio-v2.git',
-    demoLink: 'https://aspace-tramnguyenhere.netlify.app/',
+    demoLink: 'https://tramnguyenhere-portfolio-v2.netlify.app/',
     tech: ['html', 'js', 'vuejs', 'sass'],
   },
   {
